@@ -40,9 +40,6 @@ workflows:
       - name: Set up code signing settings on Xcode project
         script: |
           xcode-project use-profiles
-      - name: Install pods
-        script: |
-          pod install
       - name: Build the project
         script: |
           xcode-project build-ipa \
