@@ -6,7 +6,6 @@ workflows:
     integrations:
       app_store_connect: Aussie Adrenaline
     environment:
-      unity: 2021.3.7f1
       ios_signing:
         distribution_type: development
         bundle_identifier: com.aussieadrenaline.scooterfreestyle
